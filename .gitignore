@@ -8,6 +8,7 @@
 **/cache/
 **/broadcast/
 .local/
-artifacts/
+/artifacts/
 .DS_Store
 
+tmp/

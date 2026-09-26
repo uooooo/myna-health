@@ -1,0 +1,7 @@
+node_modules/
+artifacts/*.ptau
+artifacts/*_0000.zkey
+artifacts/*.r1cs
+artifacts/*.sym
+artifacts/EligibilityVerifier.sol
+artifacts/eligibility_js/*.js

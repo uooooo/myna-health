@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+  <MessageHeader>
+    <ProcessExecutionTime>20260927000000</ProcessExecutionTime>
+    <QualificationsInfo><Name>山田 花子（架空）</Name></QualificationsInfo>
+  </MessageHeader>
+  <MessageBody>
+    <MeTrMonthInf>
+      <MeTrMonth>202609</MeTrMonth>
+      <InOut>4</InOut>
+      <MedicalInstitutionCode>1300000001</MedicalInstitutionCode>
+      <MedicalInstitutionName>架空みなと薬局</MedicalInstitutionName>
+      <DiDateInfs><DiDateInf>
+        <DiDate>20260904</DiDate>
+        <DrugInfs><DrugInf><DrugC>100101001</DrugC><DrugN>合成薬剤 A</DrugN></DrugInf></DrugInfs>
+      </DiDateInf></DiDateInfs>
+    </MeTrMonthInf>
+  </MessageBody>
+</Message>

@@ -1,0 +1,8 @@
+{
+  "name": "@myna-health/mynaportal-adapter",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "bun test" },
+  "dependencies": { "fast-xml-parser": "^5.2.5" },
+  "devDependencies": { "@types/bun": "^1.2.0" }
+}

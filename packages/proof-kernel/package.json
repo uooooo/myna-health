@@ -1,0 +1,23 @@
+{
+  "name": "proof-kernel",
+  "module": "src/index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "setup": "bash scripts/setup.sh",
+    "fixture": "bun scripts/generate-fixture.ts",
+    "test": "bun test",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/bun": "1.4.2",
+    "@types/node": "24.10.0",
+    "typescript": "5.9.3",
+    "vite-plugin-node-polyfills": "^0.28.0"
+  },
+  "dependencies": {
+    "circomlib": "2.0.5",
+    "circomlibjs": "0.1.7",
+    "snarkjs": "0.7.5"
+  }
+}
