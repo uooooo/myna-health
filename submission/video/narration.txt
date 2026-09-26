@@ -1,0 +1,13 @@
+In Japan, your My Number health insurance card can connect your care across institutions. But a useful medical fact is still often trapped inside a record. What if you could prove the fact, without handing over the record?
+
+This is MynaHealth. Think of it as a private proof layer for Japanese healthcare. A clinic, insurer, or online consultation service can state a narrow policy: for example, has this person received an eligible treatment within the required window? The patient can answer yes with a cryptographic proof. Their name, exact medication, date, and source document remain hidden.
+
+Here is the working demo. The left side holds a synthetic Japanese dispensing record. The center shows a named policy. The patient generates a Groth16 proof in the browser, using an issuer-signed record as a private witness. The verifier checks that signature, the treatment condition, the date window, and a holder binding. The result is a receipt with only the facts that the relying party needs.
+
+Now change the scenario. With an ineligible treatment, the circuit cannot produce a valid proof. The verifier rejects it. This is a real cryptographic boundary in the prototype, not a UI flag.
+
+We also connect the proof to the wider Ethereum stack. ENS gives policies names that humans can inspect. The Solidity gate expresses how a named eligibility proof could be accepted onchain. World IDKit adds a separate proof that the claimant is a unique human, so the same benefit cannot be redeemed again under another account. Identity and medical details stay separate.
+
+For Japanese health data, provenance matters. We built an adapter for the MyNaPortal medication export format and a second circuit that proves a medication code belongs to an allowed set while hiding the code behind a SHA-256 commitment. A TLS notarization experiment validates the transport layer. The next integration step is binding an actual authenticated health portal response to that medical commitment.
+
+MynaHealth points toward a different default: a medical record can stay with its holder while institutions verify only the condition they are authorized to ask about. Prove the condition. Keep the record.
