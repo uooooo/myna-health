@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <rect width="1024" height="1024" rx="192" fill="#153D2D"/>
+  <circle cx="512" cy="478" r="312" fill="#153D2D" stroke="#A8C8A4" stroke-width="3" opacity=".7"/>
+  <path d="M285 700V325h78l149 221 149-221h78v375h-83V458L512 673 368 458v242z" fill="#F7F5ED"/>
+  <circle cx="733" cy="279" r="82" fill="#A8C8A4"/>
+  <path d="M733 230v98M684 279h98" stroke="#153D2D" stroke-width="22" stroke-linecap="round"/>
+  <text x="512" y="856" text-anchor="middle" font-family="Arial,sans-serif" font-size="44" font-weight="bold" fill="#F7F5ED">MYNAHEALTH</text>
+</svg>

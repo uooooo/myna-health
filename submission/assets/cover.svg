@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <rect width="1920" height="1080" fill="#F7F5EF"/>
+  <path d="M0 0h1920v100" fill="#E8EDE5"/>
+  <text x="142" y="68" font-family="Arial,sans-serif" font-size="34" font-weight="700" fill="#173D2F">MynaHealth</text>
+  <text x="1780" y="68" text-anchor="end" font-family="Arial,sans-serif" font-size="19" fill="#597564">ETHGLOBAL TOKYO 2026</text>
+  <text x="142" y="310" font-family="Arial,sans-serif" font-size="23" fill="#627C6D">PRIVATE MEDICAL DATA  /  PUBLIC PROOF</text>
+  <text x="132" y="465" font-family="Arial,sans-serif" font-size="113" font-weight="700" fill="#173D2F">Prove the condition.</text>
+  <text x="132" y="595" font-family="Arial,sans-serif" font-size="113" font-weight="700" fill="#88AC87">Keep the record.</text>
+  <text x="142" y="715" font-family="Arial,sans-serif" font-size="34" fill="#4B6655">A private medical proof layer for Japan.</text>
+  <rect x="142" y="818" width="405" height="95" rx="12" fill="#173D2F"/>
+  <text x="344" y="879" text-anchor="middle" font-family="Arial,sans-serif" font-size="26" font-weight="700" fill="#F7F5EF">RECORD → PROOF</text>
+  <path d="M1290 222h410a42 42 0 0 1 42 42v524a42 42 0 0 1-42 42h-410a42 42 0 0 1-42-42V264a42 42 0 0 1 42-42z" fill="#E8EDE5" stroke="#B6CCB4" stroke-width="4"/>
+  <path d="M1340 327h310M1340 415h230M1340 503h275" stroke="#92AB98" stroke-width="22" stroke-linecap="round"/>
+  <path d="M1420 684l71 71 145-169" fill="none" stroke="#173D2F" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="1620" cy="220" r="70" fill="#173D2F"/><path d="M1620 180v80M1580 220h80" stroke="#F7F5EF" stroke-width="16" stroke-linecap="round"/>
+</svg>
