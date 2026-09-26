@@ -1,0 +1,6 @@
+node_modules/
+artifacts/*.ptau
+artifacts/*.r1cs
+artifacts/*.sym
+artifacts/*_0000.zkey
+artifacts/*_js/*.js

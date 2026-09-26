@@ -17,7 +17,7 @@ MynaHealth is an ETHGlobal Tokyo 2026 prototype for privacy-preserving eligibili
 - `apps/myna-health/`: application, API, World IDKit, ENS client.
 - `packages/proof-kernel/`: Circom circuit, Groth16 artifacts, TypeScript SDK, synthetic issuer fixture.
 - `packages/mynaportal-adapter/`: local YZK-IF-002 XML parser, synthetic XML, parser tests.
-- `packages/zk-tls-source/`: Reclaim public-origin zkTLS probe (requires developer credentials).
+- `packages/zk-tls-source/`: medication-code commitment circuit, plus an experimental Reclaim public-origin probe.
 - `contracts/`: ENS policy gate, Groth16 verifier adapter, replay protection, Forge tests.
 - `docs/zk-tls-provenance.md`: source trust boundary and next integration path.
 
@@ -29,5 +29,6 @@ See [app instructions](apps/myna-health/README.md). Bun is the package manager a
 
 - The medical proof is real Groth16. Its issuer and patient record are synthetic.
 - The MyNaPortal XML parser is real but an imported file alone has no source authentication.
-- The ZK TLS probe targets a public MHLW page, not a logged-in patient endpoint.
-- ENSv2 on Sepolia, live onchain redemption, World simulator approval, and a public demo URL still require end-to-end verification. The GitHub repository remains private until the owner chooses to publish it.
+- The additional commitment circuit proves that a hidden nine-digit medication code is in a public set and hashes to a blinded SHA-256 commitment. This circuit is verified with a synthetic witness, but is **not yet connected to a TLSNotary session**.
+- The Reclaim public-origin probe targets a public MHLW page, not a logged-in patient endpoint. The first live attestor attempt currently fails parameter validation.
+- ENSv2 on Sepolia, live onchain redemption, World simulator approval, and a public demo URL still require end-to-end verification.

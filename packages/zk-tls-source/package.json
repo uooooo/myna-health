@@ -4,15 +4,20 @@
   "type": "module",
   "scripts": {
     "prove:synthetic": "node scripts/prove-synthetic.ts",
+    "prove:commitment": "node scripts/prove-commitment.ts",
+    "setup:commitment": "bash scripts/setup-commitment.sh",
     "test": "bun test",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@reclaimprotocol/js-sdk": "^5.8.2",
-    "@reclaimprotocol/zk-fetch": "^1.1.0"
+    "@reclaimprotocol/zk-fetch": "^1.1.0",
+    "circomlib": "2.0.5",
+    "snarkjs": "0.7.5"
   },
   "devDependencies": {
     "@types/bun": "^1.2.0",
+    "@types/snarkjs": "^0.7.9",
     "typescript": "^5.9.0"
   }
 }
