@@ -1,0 +1,11 @@
+{
+  "name": "mynaproof",
+  "private": true,
+  "packageManager": "bun@1.4.2",
+  "scripts": {
+    "dev": "bun run --cwd prize-core dev:api",
+    "web": "bun run --cwd prize-core dev:web",
+    "build": "bun run --cwd prize-core build",
+    "test": "bun run --cwd prize-core test"
+  }
+}
